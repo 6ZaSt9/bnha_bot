@@ -1,0 +1,27 @@
+{
+  "name": "discord bot",
+  "version": "0.1.1",
+  "description": "My first bot on 24/7",
+  "main": "node server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "author": "Za$t",
+  "license": "",
+  "homepage": "",
+  "dependencies": {
+    "discord.js": "^12.4.0",
+    "enmap": "^5.8.1",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.31",
+    "ms": "^2.1.2",
+    "needle": "^2.5.2",
+    "sqlite3": "^5.0.0",
+    "random-with-percentage": "^1.0.1"
+  }
+}
